@@ -11,6 +11,9 @@
 		247B94C529663CE8000A93CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B94C429663CE8000A93CA /* ContentView.swift */; };
 		247B94C729663CE8000A93CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247B94C629663CE8000A93CA /* Assets.xcassets */; };
 		247B94CA29663CE8000A93CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247B94C929663CE8000A93CA /* Preview Assets.xcassets */; };
+		247B94D229667FEF000A93CA /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B94D129667FEF000A93CA /* Overview.swift */; };
+		247B94D429668007000A93CA /* PersonalRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B94D329668007000A93CA /* PersonalRecords.swift */; };
+		247B94D729668048000A93CA /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B94D629668048000A93CA /* Workout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		247B94C429663CE8000A93CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		247B94C629663CE8000A93CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		247B94C929663CE8000A93CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		247B94D129667FEF000A93CA /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		247B94D329668007000A93CA /* PersonalRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalRecords.swift; sourceTree = "<group>"; };
+		247B94D629668048000A93CA /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		247B94C129663CE8000A93CA /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				247B94D029667FC2000A93CA /* Views */,
 				247B94C229663CE8000A93CA /* WorkoutAppApp.swift */,
 				247B94C429663CE8000A93CA /* ContentView.swift */,
 				247B94C629663CE8000A93CA /* Assets.xcassets */,
@@ -65,6 +72,16 @@
 				247B94C929663CE8000A93CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		247B94D029667FC2000A93CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				247B94D129667FEF000A93CA /* Overview.swift */,
+				247B94D629668048000A93CA /* Workout.swift */,
+				247B94D329668007000A93CA /* PersonalRecords.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247B94D229667FEF000A93CA /* Overview.swift in Sources */,
 				247B94C529663CE8000A93CA /* ContentView.swift in Sources */,
+				247B94D429668007000A93CA /* PersonalRecords.swift in Sources */,
+				247B94D729668048000A93CA /* Workout.swift in Sources */,
 				247B94C329663CE8000A93CA /* WorkoutAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
